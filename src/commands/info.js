@@ -26,7 +26,7 @@ module.exports = {
         let seconds = Math.floor(totalSeconds % 60);
         
         let ownerUsers = [];
-        config.ownerID.forEach(id => {
+        config.whitelistID.forEach(id => {
             ownerUsers.push(client.users.cache.find(u => u.id === id) || { tag: "None Set" });
         })
 
