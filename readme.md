@@ -17,6 +17,6 @@
   Refer to the [wiki here](https://github.com/flyxn/dHue/wiki/Installation).
 
 ## Credits
-  - **[NorteX#2978](https://nortex.xyz/)** for pretty much helping with the whole project.
+  - **[NorteX#2978](nortex.xyz/)** for pretty much helping with the whole project.
   - **maku#0001** for helping me with API issues.
   - **Hiekki#0001** for moral support.
