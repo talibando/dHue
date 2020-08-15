@@ -31,7 +31,7 @@ dHue is an open source Discord Bot to control and manage Philips Hue smart light
 
 2. Copy the bot token, and paste this into ```'bot_token'``` in the config file. For example: ```token: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',```
 
-#### Bot Configuration
+## 📝 Bot Configuration
 The bot's prefix **can** be changed by changing the ```botPrefix``` value
 
 
