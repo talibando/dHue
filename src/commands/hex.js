@@ -20,7 +20,7 @@ module.exports = {
         } = message
 
         if (config.whitelistOnly)
-            if (!config.ownerID.includes(message.author.id)) return message.channel.send(createErrorEmbed("Only whitelisted people can do this."));
+            if (!config.whitelistID.includes(message.author.id)) return message.channel.send(createErrorEmbed("Only whitelisted people can do this."));
         if (isNaN(args[0]) || parseInt(args[0]) <= 0) {
             return message.channel.send(createErrorEmbed(`Please specify a light ID.`))
         }
