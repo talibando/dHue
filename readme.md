@@ -36,7 +36,6 @@ dHue is an open source Discord Bot to control and manage Philips Hue smart light
 ### Running the bot
 1. Open up your **command prompt**, enter in ```cd``` and write out the path to your Huucord folder
   <details>
-
 <summary>Example</summary>
 
 ```cd C:\Users\pearl\Downloads\dHue-master\dHue-master```
