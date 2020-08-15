@@ -15,7 +15,7 @@
 ## How do I install this?
 Keep reading!
 
-## 🚗 Hue Setup
+### 🚗 Hue Setup
 1. Go to the [Meethue Discovery Page](https://discovery.meethue.com/), and copy the **internal bridge ip address** value.
 
 2. In the config folder, open **config.js** in a text editor and replace ```'bridge_ip'``` with the ip address of your Hue bridge, for example: ```bridgeIp: 'xxx.xxx.x.xx',```
