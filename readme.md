@@ -7,7 +7,7 @@
 
 # ![info](images/info.png)
 
-### Features
+## Features
 - Turn lights off and on.
 - Modify brightness and color.
 - Detailed info about your Hue lights.
