@@ -14,7 +14,7 @@ dHue is an open source Discord Bot to control and manage Philips Hue smart light
 1. Go to [https://discovery.meethue.com/](https://discovery.meethue.com/), and copy the internal bridge ip address value.
 2. Open your web browser and paste in https://bridgeip/debug/clip.html, paste in the internal bridge address into where it says bridge ip.
 3. Go to your hue bridge and press the button on it, then follow the instructions in this video:
-
+# ![notpressed](images/notpressedgif.gif)
 
 
 
