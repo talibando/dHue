@@ -1,0 +1,20 @@
+{
+  "name": "spoticord",
+  "version": "1.0.0",
+  "description": "control spotify through discord.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "h8u",
+  "license": "MIT",
+  "dependencies": {
+    "@q42philips/hue-color-converter": "^1.0.0",
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "discord.js": "^12.2.0",
+    "huejay": "^1.9.0",
+    "jshue": "^2.1.1",
+    "request": "^2.88.2"
+  }
+}
