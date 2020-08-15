@@ -1,5 +1,5 @@
 # ![Huucord](images/dhue_banner.png)
-![Github Last Commit](https://img.shields.io/github/last-commit/flyxn/huucord?color=%233F84E5&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/flyxn/dhue?color=3F84E5&logo=github)
 ![GitHub](https://img.shields.io/github/license/flyxn/dhue?color=%233F84E5)
 ![GitHub issues](https://img.shields.io/github/issues/flyxn/dhue?color=%233F84E5&logo=GITHUB)
 
