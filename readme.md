@@ -7,14 +7,10 @@
 
 # ![info](images/info.png)
 
-<details>
-  <summary>Features</summary>
-
-    - Turn lights off and on.
-    - Modify brightness and color
-    - Detailed info about your Hue lights
-
-</details>
+### Features
+- Turn lights off and on.
+- Modify brightness and color.
+- Detailed info about your Hue lights
 
 ## How do I install this?
 Keep reading!
