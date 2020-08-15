@@ -13,7 +13,7 @@
 - Detailed info about your Hue lights
 
 ## How do I install this?
-Keep reading!
+  ```git clone https://github.com/flyxn/dHue```
 
 ### Hue Setup
 1. Go to the [Meethue Discovery Page](https://discovery.meethue.com/), and copy the **internal bridge ip address** value.
