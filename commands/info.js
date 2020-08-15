@@ -27,7 +27,7 @@ module.exports = {
         
         let ownerUsers = [];
         config.ownerID.forEach(id => {
-            ownerUsers.push(client.users.cache.find(u => u.id === id));
+            ownerUsers.push(client.users.cache.find(u => u.id === id) || { tag: "None Set" });
         })
 
         const embed = new Discord.MessageEmbed()
@@ -41,7 +41,7 @@ module.exports = {
             .addField('Hue API Ping', `\`${responseTimeMs}ms\``, false)
             .addField('Bot Uptime', `\`${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds\``, false)
             .addField('Bot Prefix', `\`${config.botPrefix}\``, false)
-            .addField('Owner Only Whitelisted Users', `\`${ownerUsers.map(o => o.tag).join(`, `)}\``, false)
+            .addField('Owner Only Whitelisted Users', `\`${ownerUsers.map(o => o.tag).join(`, `)}\`` || "No one", false)
         message.channel.send(embed)
         })
     }

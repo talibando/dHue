@@ -32,6 +32,7 @@ module.exports = {
 
         hueclient.lights.getById(parsedId)
             .then(light => {
+                light.on = true;
                 light.brightness = parsedBrightnessVal;
                 const embed = new Discord.MessageEmbed()
                     .setColor('#3F84E5')
