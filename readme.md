@@ -58,3 +58,9 @@ Owner only mode can be toggled in the config.js file. Owner only mode makes it s
       <summary>Example</summary>
       ```ownerID: ['xxxxxxxxxxxxxxxxxx', 'yyyyyyyyyyyyyyyyyy'],```
       </details>
+
+
+## Credits
+  - NorteX#2978 for pretty much helping with the whole project
+  - maku#0001 for helping me with API issues
+  - Hiekki#0001 for moral support
