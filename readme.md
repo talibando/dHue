@@ -20,7 +20,7 @@ dHue is an open source Discord Bot to control and manage Philips Hue smart light
   
   <details>
 <summary> 4. After you send the post request, click the button on your Hue bridge and then follow these instructions:</summary>
-# ![pressed](images/pressedgif.gif)
+[pressed](images/pressedgif.gif)
 </details>
 
 
