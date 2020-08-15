@@ -1,2 +1,3 @@
 # ![Huucord](images/huucord_banner.png)
-Huucord is a Discord bot to control your Philips Hue smart lights.
+![GitHub All Releases](https://img.shields.io/github/downloads/flyxn/Huucord/total?color=%233F84E5&logo=Discord)
+
