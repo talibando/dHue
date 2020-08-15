@@ -62,6 +62,6 @@ Owner only mode can be toggled in the config.js file. Owner only mode makes it s
 
 
 ## Credits
-  - **NorteX#2978** for pretty much helping with the whole project
+  - **(NorteX#2978)[https://nortex.xyz/]** for pretty much helping with the whole project
   - **maku#0001** for helping me with API issues
   - **Hiekki#0001** for moral support
