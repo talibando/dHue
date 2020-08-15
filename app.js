@@ -13,7 +13,7 @@ for (const file of commandFiles) {
 }
 
 client.on('ready', () => {
-    console.log(`Sucessfully started ${client.user.tag}.`);
+    console.log(`Sucessfully started ${client.user.tag}. \n Run ${config.botPrefix}id to get started.`);
 });
 
 client.on('message', message => {
