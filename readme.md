@@ -46,6 +46,8 @@ Keep reading!
 
 2. Make sure you have [**Node.JS**](https://nodejs.org/en/) installed or this won't work
       1.  type ```npm install```
+      
+3. Once all the packages have installed, type in your command prompt ```node .```
 
 
 ### 📝 Bot Configuration
