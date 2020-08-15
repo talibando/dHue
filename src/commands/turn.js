@@ -12,7 +12,7 @@ module.exports = {
     name: 'turn',
     description: "This command turns the light on or off.",
     execute(message, client, args, createErrorEmbed) {
-        const {
+        const 
             member,
             mentions
         } = message
