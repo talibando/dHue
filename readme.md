@@ -20,7 +20,7 @@
 
 2. In the config folder, open **config.js** in a text editor and replace ```'bridge_ip'``` with the ip address of your Hue bridge, for example: ```bridgeIp: 'xxx.xxx.x.xx',```
 
-3. Open your web browser and paste in https://bridgeip/debug/clip.html, put your hue bridges ***internal bridge address*** into where it says bridge ip. For example, ```https://xxx.xxx.x.xx/debug/clip.html```
+3. Open your web browser and paste in https://bridgeip/debug/clip.html, put your hue bridges **internal bridge address** into where it says bridge ip. For example, ```https://xxx.xxx.x.xx/debug/clip.html```
 
   <details>
 <summary> 4. Copy what I put in the url and body, and then press the **button** on your Hue bridge</summary>
