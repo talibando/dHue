@@ -1,3 +1,3 @@
 # ![Huucord](images/huucord_banner.png)
-![GitHub All Releases](https://img.shields.io/github/downloads/flyxn/Huucord/total?color=%233F84E5&logo=Discord)
+![GitHub All Releases](https://img.shields.io/github/downloads/flyxn/Huucord/total?color=%233F84E5&logo=Discord) https://img.shields.io/github/last-commit/flyxn/huucord?color=%233F84E5&logo=github
 
