@@ -5,7 +5,7 @@
 ### 💡 What is this?
 dHue is an open source Discord Bot to control and manage Philips Hue smart lights all through discord. Built using [discord.js](https://github.com/discordjs/discord.js).
 
-## Features
+## ⌨️ Features
 - Turn lights off and on.
 - Modify brightness and color
 - Detailed info about your Hue lights
