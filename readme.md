@@ -56,6 +56,5 @@ The bot's prefix **can** be changed by changing the ```botPrefix``` value
 Owner only mode can be toggled in the config.js file. Owner only mode makes it so only certain people can use commands. To whitelist an ID, developer mode must be enabled from ```Settings -> Appearance```. Once developer mode is enabled, right click a user's name to get their ID. Replace ```ownerID``` in config.js with the ID of the user. If you want to whitelist multiple users, get the user's ID, then in ownerID in config, add a comma, then '', and put the ID in between the ''
         <details>
       <summary>Example</summary>
-
       ```ownerID: ['xxxxxxxxxxxxxxxxxx', 'yyyyyyyyyyyyyyyyyy'],```
       </details>
