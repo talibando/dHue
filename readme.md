@@ -7,7 +7,7 @@
 
 # ![info](images/info.png)
 
-## ⌨️ Features
+## Features
 - Turn lights off and on.
 - Modify brightness and color
 - Detailed info about your Hue lights
@@ -15,7 +15,7 @@
 ## How do I install this?
 Keep reading!
 
-### 🚗 Hue Setup
+### Hue Setup
 1. Go to the [Meethue Discovery Page](https://discovery.meethue.com/), and copy the **internal bridge ip address** value.
 
 2. In the config folder, open **config.js** in a text editor and replace ```'bridge_ip'``` with the ip address of your Hue bridge, for example: ```bridgeIp: 'xxx.xxx.x.xx',```
@@ -30,7 +30,7 @@ Keep reading!
 
 5. Once you've copied your username, open **config.js** again and replace ```'bridge_username'``` with the username you copied. For example: ```bridgeUsername: '34bbtd7djQBAqRyZ52vMSvkWaMjPTFzRcOuBDTBs',```
 
-### 🤖 Discord Bot
+### Discord Bot
 
 1. Go to [https://discord.com/developers/applications](https://discord.com/developers/applications), and create a **new application**. Head to the **bot** section, and click **add bot**.
 
