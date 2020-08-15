@@ -1,1 +1,1 @@
-# ![Huucord](images/huucord_banner.svg)
+# ![Huucord](images/huucord_banner.png)
