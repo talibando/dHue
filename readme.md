@@ -49,6 +49,7 @@
       
 3. Once all the packages have installed, type in your command prompt ```node .```
 
+# ![hex](images/hex.png)
 
 ### Bot Configuration
 The bot's prefix **can** be changed by changing the ```botPrefix``` value
