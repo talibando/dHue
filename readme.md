@@ -23,6 +23,6 @@ dHue is an open source Discord Bot to control and manage Philips Hue smart light
 </details>
 
 5. Once you've copied your username, open config.js again and replace 'bridge_username' with the username you copied. For example: ```bridgeUsername: '
-34bbtd7djQBAqRyZ52vMSvkWaMjPTFzRcOuBDTBs'```
+34bbtd7djQBAqRyZ52vMSvkWaMjPTFzRcOuBDTBs',```
 
 
