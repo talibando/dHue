@@ -41,7 +41,7 @@
       <details>
       <summary>Example</summary>
 
-      ```cd C:\Users\pearl\Downloads\dHue-master\dHue-master```
+      ```cd C:\Users\name\Downloads\dHue-master\dHue-master```
       </details>
 
 2. Make sure you have [**Node.JS**](https://nodejs.org/en/) installed or this won't work
