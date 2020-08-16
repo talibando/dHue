@@ -56,8 +56,12 @@ module.exports = {
                     inline: true,
                     name: `Turn off`,
                     value: `Turns a light off.`
+                }, {
+                    inline: true,
+                    name: `\u200b`
+                    value: `\u200b`
                 }
-
+                
             )
 
         message.channel.send(embed)
