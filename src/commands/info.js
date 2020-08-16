@@ -13,7 +13,7 @@ module.exports = {
         
         
         var sendDate = (new Date()).getTime();
-        axios.get('http://${config.bridgeIp}/api/${config.bridgeUsername}/').then(Response => {
+        axios.get(`http://${config.bridgeIp}/api/${config.bridgeUsername}/`).then(Response => {
         
         var receiveDate = (new Date()).getTime();
         var responseTimeMs = receiveDate - sendDate;
