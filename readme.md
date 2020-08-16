@@ -33,3 +33,4 @@
   - Nortex#2978 for pretty much helping with the whole project.
   - maku#0001 for helping me with API issues.
   - Hiekki#0001 for moral support.
+  - sqmk for his awesome [Huejay client.](https://github.com/sqmk/huejay)
