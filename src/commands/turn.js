@@ -74,7 +74,7 @@ module.exports = {
                         .setColor('#3F84E5')
                         .setTitle(`Light status`)
                         .setDescription(`Set **${light.name}** to **on**.`)
-                        .setAuthor(`huecord®`, 'https://i.fiery.me/24csz.png')
+                        .setAuthor(`${client.user.tag}`, 'https://i.fiery.me/24csz.png')
                         .setThumbnail('https://i.fiery.me/aIyxE.png')
                         .setFooter(`${addZero(new Date)}`)
                     message.channel.send(embed)
@@ -86,7 +86,7 @@ module.exports = {
                         .setColor('#d2797f')
                         .setTitle(`Error`)
                         .setDescription(`An error occured. Does a light exist with the ID **${parsedId}**?`)
-                        .setAuthor(`huecord®`, 'https://i.fiery.me/ODMAw.png')
+                        .setAuthor(`${client.user.tag}`, 'https://i.fiery.me/ODMAw.png')
                         .setThumbnail('https://i.fiery.me/fgtL3.png')
                         .addFields(
 
