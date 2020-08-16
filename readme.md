@@ -32,5 +32,6 @@
 ## Credits
   - Nortex#2978 for pretty much helping with the whole project.
   - maku#0001 for helping me with API issues.
+  - FM-96#1504 for help with the turn command.
   - Hiekki#0001 for moral support.
   - sqmk for his awesome [Huejay](https://github.com/sqmk/huejay) client which without it this project would not have existed.
