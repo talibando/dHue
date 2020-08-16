@@ -25,7 +25,7 @@
 | Saturation [id] [value] | Yes                     | Change a light's saturation.                                                                    | 1.0.0    |
 | Hue [id] [value]        | Yes                     | Change a light's hue.                                                                           | 1.0.0    |
 | Brigntess [id] [value]  | Yes                     | Change a light's brightness.                                                                    | 1.0.0    |
-| Turn [id] [on/off]      | Yes                     | Turn a light on or off.                                                                         | 1.0.0    |
+| Turn [id] [on/off]      | Yes                     | Turn a light on or off.                                                                         | 1.1.0    |
 | Info                    | No                      | Display basic information about the bot.                                                        | 1.0.0    |
 | Help                    | No                      | Displays the commands.                                                                          | 1.0.0    |
 
