@@ -50,11 +50,11 @@ module.exports = {
                     value: `Changes a light's brightness.`
                 }, {
                     inline: true,
-                    name: `On`,
-                    value: `Turns a light on.`
+                    name: `Turn on`,
+                    value: `Turns a light on.
                 }, {
                     inline: true,
-                    name: `Off`,
+                    name: `Turn off`,
                     value: `Turns a light off.`
                 }, {
                     inline: \u200b,
