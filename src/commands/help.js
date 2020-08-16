@@ -56,7 +56,8 @@ module.exports = {
                     inline: true,
                     name: `Turn off`,
                     value: `Turns a light off.`
-                }, 
+                }, {
+                }
 
             )
 
