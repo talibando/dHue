@@ -58,7 +58,7 @@ module.exports = {
                     value: `Turns a light off.`
                 }, {
                     inline: true,
-                    name: `\u200b`
+                    name: `\u200b`,
                     value: `\u200b`
                 }
                 
