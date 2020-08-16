@@ -41,7 +41,7 @@ module.exports = {
             .addField('Hue API Ping', `\`${responseTimeMs}ms\``, false)
             .addField('Bot Uptime', `\`${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds\``, false)
             .addField('Bot Prefix', `\`${config.botPrefix}\``, false)
-            .addField('Owner Only Whitelisted Users', `\`${ownerUsers.map(o => o.tag).join(`, `)}` || 'No one', false)
+            .addField('Owner Only Whitelisted Users', `${ownerUsers.map(o => o.tag).join(`, `)}` || 'No one', false)
         message.channel.send(embed)
         })
     }
