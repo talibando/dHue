@@ -24,87 +24,91 @@ module.exports = {
         const parsedId = parseInt(id);
         const offoron = args[1];
         if (!offoron) return message.channel.send(createErrorEmbed("Please specify if you want the light on or off."));
-        if (offoron.includes('off')) {
-
-            hueclient.lights.getById(parsedId)
-                .then(light => {
-
-                    light.on = false;
-
-                    const embed = new Discord.MessageEmbed()
-                        .setColor('#3F84E5')
-                        .setTitle(`Light status`)
-                        .setDescription(`Set **${light.name}** to **off**.`)
-                        .setAuthor(`${client.user.tag}`, 'https://i.fiery.me/24csz.png')
-                        .setThumbnail('https://i.fiery.me/aIyxE.png')
-                        .setFooter(`${addZero(new Date)}`)
-                    message.channel.send(embed)
-                    return hueclient.lights.save(light);
-
-                }).catch(error => {
-                    console.log(error)
-                    const embed = new Discord.MessageEmbed()
-                        .setColor('#d2797f')
-                        .setTitle(`Error`)
-                        .setDescription(`An error occured. Does a light exist with the ID **${parsedId}**?`)
-                        .setAuthor(`${client.user.tag}`, 'https://i.fiery.me/ODMAw.png')
-                        .setThumbnail('https://i.fiery.me/fgtL3.png')
-                        .addFields(
-
-                            {
-
-                                name: 'Error Message:',
-                                value: `\|| ${error} ||`
-
-                            }
-
-                        )
-                        .setFooter(`${addZero(new Date)}`)
-                    message.channel.send(embed)
-                });
-
-        } else {
-
-            hueclient.lights.getById(parsedId)
-                .then(light => {
-
-                    light.on = true;
-
-                    const embed = new Discord.MessageEmbed()
-                        .setColor('#3F84E5')
-                        .setTitle(`Light status`)
-                        .setDescription(`Set **${light.name}** to **on**.`)
-                        .setAuthor(`${client.user.tag}`, 'https://i.fiery.me/24csz.png')
-                        .setThumbnail('https://i.fiery.me/aIyxE.png')
-                        .setFooter(`${addZero(new Date)}`)
-                    message.channel.send(embed)
-                    return hueclient.lights.save(light);
-
-                }).catch(error => {
-                    console.log(error)
-                    const embed = new Discord.MessageEmbed()
-                        .setColor('#d2797f')
-                        .setTitle(`Error`)
-                        .setDescription(`An error occured. Does a light exist with the ID **${parsedId}**?`)
-                        .setAuthor(`${client.user.tag}`, 'https://i.fiery.me/ODMAw.png')
-                        .setThumbnail('https://i.fiery.me/fgtL3.png')
-                        .addFields(
-
-                            {
-
-                                name: 'Error Message:',
-                                value: `\|| ${error} ||`
-
-                            }
-
-                        )
-                        .setFooter(`${addZero(new Date)}`)
-                    message.channel.send(embed)
-                });
+        if (offoron !== 'off' && offoron !== 'on') return message.channel.send(createErrorEmbed("Please specify if you want the light on or off."));
+        else {
 
 
+            if (offoron.includes('on')) {
+                hueclient.lights.getById(parsedId)
+                    .then(light => {
+
+                        light.on = true;
+
+                        const embed = new Discord.MessageEmbed()
+                            .setColor('#3F84E5')
+                            .setTitle(`Light status`)
+                            .setDescription(`Set **${light.name}** to **on**.`)
+                            .setAuthor(`${client.user.tag}`, 'https://i.fiery.me/24csz.png')
+                            .setThumbnail('https://i.fiery.me/aIyxE.png')
+                            .setFooter(`${addZero(new Date)}`)
+                        message.channel.send(embed)
+                        return hueclient.lights.save(light);
+
+                    }).catch(error => {
+                        console.log(error)
+                        const embed = new Discord.MessageEmbed()
+                            .setColor('#d2797f')
+                            .setTitle(`Error`)
+                            .setDescription(`An error occured. Does a light exist with the ID **${parsedId}**?`)
+                            .setAuthor(`${client.user.tag}`, 'https://i.fiery.me/ODMAw.png')
+                            .setThumbnail('https://i.fiery.me/fgtL3.png')
+                            .addFields(
+
+                                {
+
+                                    name: 'Error Message:',
+                                    value: `\|| ${error} ||`
+
+                                }
+
+                            )
+                            .setFooter(`${addZero(new Date)}`)
+                        message.channel.send(embed)
+                    });
+
+            } else {
+
+                hueclient.lights.getById(parsedId)
+                    .then(light => {
+
+                        light.on = false;
+
+                        const embed = new Discord.MessageEmbed()
+                            .setColor('#3F84E5')
+                            .setTitle(`Light status`)
+                            .setDescription(`Set **${light.name}** to **off**.`)
+                            .setAuthor(`${client.user.tag}`, 'https://i.fiery.me/24csz.png')
+                            .setThumbnail('https://i.fiery.me/aIyxE.png')
+                            .setFooter(`${addZero(new Date)}`)
+                        message.channel.send(embed)
+                        return hueclient.lights.save(light);
+
+                    }).catch(error => {
+                        console.log(error)
+                        const embed = new Discord.MessageEmbed()
+                            .setColor('#d2797f')
+                            .setTitle(`Error`)
+                            .setDescription(`An error occured. Does a light exist with the ID **${parsedId}**?`)
+                            .setAuthor(`${client.user.tag}`, 'https://i.fiery.me/ODMAw.png')
+                            .setThumbnail('https://i.fiery.me/fgtL3.png')
+                            .addFields(
+
+                                {
+
+                                    name: 'Error Message:',
+                                    value: `\|| ${error} ||`
+
+                                }
+
+                            )
+                            .setFooter(`${addZero(new Date)}`)
+                        message.channel.send(embed)
+                    });
+
+
+
+            }
         }
-
 
     }
 }
