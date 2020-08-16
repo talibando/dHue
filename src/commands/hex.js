@@ -46,7 +46,7 @@ module.exports = {
 
                 let xyvalues = converter.calculateXY(rvalue, gvalue, bvalue);
 
-                axios.put(`http://192.168.4.31/api/faI8bilmeNIkJcQRcHKQz5BtNb36VFuz9T8gA6wz/lights/${args[0]}/state`, {
+                axios.put(`http://${config.bridgeIp}/api/${config.bridgeUsername}/lights/${args[0]}/state`, {
 
                     'xy': converter.calculateXY(rvalue, gvalue, bvalue)
 
