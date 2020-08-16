@@ -56,12 +56,7 @@ module.exports = {
                     inline: true,
                     name: `Turn off`,
                     value: `Turns a light off.`
-                }, {
-                    inline: \u200b,
-                    name: `\u200b`,
-                    value: `Gets the ping to the Hue API.`
-                },
-
+                }, 
 
             )
 
